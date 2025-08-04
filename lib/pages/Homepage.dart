@@ -52,7 +52,7 @@ class Homepage extends StatelessWidget {
               ),
               ListTile(
                 leading: Icon(Icons.phone, color: Colors.teal),
-                title: Text('Phone : 01712345678'),
+                title: Text('Phone : +880 1612345678'),
               ),
             ],
           ),
