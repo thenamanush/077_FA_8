@@ -7,10 +7,10 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
+        backgroundColor: Colors.teal,
         centerTitle: true,
         title: Text(
-          'Users Details',
+          'Digital Id Card',
           style: TextStyle(
             color: Colors.white,
             fontSize: 24,
@@ -33,7 +33,7 @@ class Homepage extends StatelessWidget {
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               Text(
-                'Dept of CSE',
+                'Batch : 61st, Dept of CSE',
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.grey[600],
@@ -44,15 +44,15 @@ class Homepage extends StatelessWidget {
               Divider(color: Colors.grey, thickness: 1),
               ListTile(
                 leading: Icon(Icons.person, color: Colors.teal),
-                title: Text('ID: 0182310012101077'),
+                title: Text('ID : 0182310012101077'),
               ),
               ListTile(
                 leading: Icon(Icons.email, color: Colors.teal),
-                title: Text('basharnuman420@gmail.com'),
+                title: Text('Email : basharnuman1211@gmail.com'),
               ),
               ListTile(
                 leading: Icon(Icons.phone, color: Colors.teal),
-                title: Text('01712345678'),
+                title: Text('Phone : 01712345678'),
               ),
             ],
           ),
